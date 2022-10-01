@@ -1,0 +1,96 @@
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    background-color: ghostwhite;
+}
+
+h1 {
+    padding-left: 10px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Monda', sans-serif;
+}
+
+p {
+    font-family: 'Yrsa', serif;
+    font-size: 16px;
+}
+
+.container > div {
+    background: rgb(221, 229, 231);
+    padding: 1em;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.project {
+    align-self: center;
+    justify-self: center;
+    margin: 12px;
+    border: dashed #5197DD 2px;
+}
+
+.project > a {
+    padding: 1em;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(36, 33, 33);
+    text-align: center;
+}
+
+.project > a:hover, a:active {
+    text-decoration: none;
+}
+
+.container {
+    width: 96%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 1em;
+    background: linear-gradient(45deg, #DCECFC 25%, #5197DD 0, #5197DD 50%, #DCECFC 0, #DCECFC 75%, #5197DD 0);
+    background-size: 80.42px 80.42px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 992px){
+
+    .container > div {
+        padding: 2em;
+    }
+
+    .container {
+        width: 80%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 4em;
+        background: linear-gradient(45deg, #DCECFC 25%, #5197DD 0, #5197DD 50%, #DCECFC 0, #DCECFC 75%, #5197DD 0);
+        background-size: 80.42px 80.42px;
+        justify-items: center;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 1200px){
+    
+}
+
