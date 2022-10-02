@@ -35,6 +35,7 @@ p {
     justify-self: center;
     margin: 12px;
     border: dashed #5197DD 2px;
+    padding: 1rem;
 }
 
 .project > a {
